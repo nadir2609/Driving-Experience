@@ -248,10 +248,10 @@ spl_autoload_register(function ($class_name) {
 
 ---
 
-## Scoring Impact
+## Implementation Benefits
 
-### Teacher's Criteria Met:
-- **OOP Classes (3 points)**: ✅ Full implementation
+### Architecture Features:
+- **OOP Classes**: ✅ Full implementation
   - Database (Singleton)
   - BaseModel (Abstract)
   - DrivingExperience (Domain Model)
@@ -259,8 +259,6 @@ spl_autoload_register(function ($class_name) {
 
 - **Design Patterns**: ✅ Singleton, Inheritance, Abstract Class
 - **Code Quality**: ✅ Clean, documented, maintainable
-
-**Estimated Score Increase**: +3 points (OOP implementation)
 
 ---
 
@@ -289,7 +287,7 @@ spl_autoload_register(function ($class_name) {
 
 ## Next Steps for Full MVC
 
-To achieve full MVC architecture (additional 4-5 points):
+To achieve full MVC architecture:
 1. Create `controllers/` folder with controller classes
 2. Create `views/` folder with template files
 3. Implement routing system
